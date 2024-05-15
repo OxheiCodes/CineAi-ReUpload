@@ -1,0 +1,67 @@
+/* Styled by Richard (OxheiCodes) */
+/* Root styles */
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 500;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  --black: #151515; /* Dark black */
+  --black2: #0D0D0D; /* Darker black */
+  --black3: #060606; /* Darkest black */
+  --black-lighter: #4D4D4D; /* Lighter shade of black */
+  --black-light: #2D2D2D; /* Light black */
+  --pink: #A91D3A; /* Accent Color */
+  --orange: #C73659; /* Orange color */
+  --gradient: linear-gradient(98.37deg, #C73659 0.99%, #A91D3A 100%); /* Gradient */
+}
+
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  background-color: var(--black);
+}
+
+/* Hide scrollbar */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Skeleton loader styles */
+.skeleton {
+  position: relative;
+  overflow: hidden;
+  background-color: #2D2D2D;
+  &::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: translateX(-100%);
+    background-image: linear-gradient(
+      90deg,
+      rgba(#4D4D4D, 0) 0,
+      rgba(#4D4D4D, 0.2) 20%,
+      rgba(#4D4D4D, 0.5) 60%,
+      rgba(#4D4D4D, 0)
+    );
+    animation: shimmer 2s infinite;
+    content: "";
+  }
+  @keyframes shimmer {
+    100% {
+      transform: translateX(100%);
+    }
+  }
+}
