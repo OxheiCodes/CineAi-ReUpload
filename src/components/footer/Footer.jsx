@@ -15,12 +15,7 @@ const Footer = () => {
           <li className="menuItem">FAQ</li>
         </ul>
         <div className="infoText">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur.
+        Discover the world of cinema with CineAI. Experience the best of films and TV shows from across the globe, meticulously curated to enhance your viewing experience. CineAI is committed to providing exceptional service and enriching your entertainment journey. For inquiries or further information, please contact us. Dive into the vast universe of storytelling with us—your ultimate cinematic adventure awaits!
         </div>
         <div className="socialIcons">
           <a
